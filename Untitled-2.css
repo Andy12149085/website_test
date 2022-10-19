@@ -1,0 +1,48 @@
+*{margin: 0;}
+#something{
+    margin-bottom: 10%;
+    background-color:blue;
+}
+#sitebody{
+    width:100%;
+    height: 100vh;
+}
+
+#header{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    background-color: crimson;
+}
+
+#left{
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    float: left;
+    background-color: aqua;
+}
+
+#right{
+    background-color: darkorchid;
+    width: 30%;
+    height:100%;
+    text-align: right;
+    float: right;
+}
+
+#down{
+    background-color: rgb(125, 23, 85);
+}
+@keyframes changecolor{
+    20%{color: red;}
+    40%{color: orange;}
+    60%{color: yellow;}
+    80%{color: green;}
+    100%{color: blue;}
+}
+h1{
+    animation-name: changecolor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
